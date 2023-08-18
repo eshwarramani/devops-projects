@@ -1,5 +1,5 @@
 resource "aws_security_group" "jenkins-agent" {
-  name        = "jenkins-agent"
+  name        = "jenkins-agenT"
   description = "Allow SSH inbound traffic from everywhere and all outbound traffic"
 
   ingress {
